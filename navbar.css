@@ -1,0 +1,56 @@
+.nav_bar
+ {
+	 height: 48px;
+	 color: #eeeeee;
+	 background-color: rgba(45,45,45,1);
+	 z-index:999;
+	 position:fixed;
+	 width:100%;
+	 text-align:center;
+ }
+ 
+ .nav_bar:hover
+ {
+	 color: #eeeeee;
+	 background-color: rgba(45,45,45,1);
+	 width:100%;
+	 box-shadow: 0px 10px 5px #aaaaaa;
+	 text-align:center;
+	 position:fixed;
+ }
+ 
+ .nav_bar li
+ {
+	 list-style:none;
+	 padding: 10px;
+	 margin-top: 2px;
+	 margin-right:20px;
+	 font-size: 17px;
+	 display:inline-block;
+	 transition: 0.2s linear;
+	
+ }
+ 
+ .nav_bar li:hover
+ {
+	 color: #bbbbbb;
+	 font-size: 18px;
+	 border-bottom: 3px white solid;
+	 padding-bottom: 10px;
+	 cursor: pointer;
+ }
+ 
+#heading
+ {
+	height: 50px;
+	width: 50px;
+	position:fixed;
+	left:30%;
+	z-index:9999;
+ }
+ 
+ .useless
+ {
+	 height: 48px;
+	 width: 100%;
+ }
